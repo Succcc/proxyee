@@ -6,7 +6,9 @@ import java.net.MalformedURLException;
 import java.security.cert.X509Certificate;
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * @author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class CertPool {
     private static Map<String, X509Certificate> certCache = new HashMap<>();
 

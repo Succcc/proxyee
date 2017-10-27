@@ -24,7 +24,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class CertUtil {
 
     private static KeyFactory keyFactory = null;

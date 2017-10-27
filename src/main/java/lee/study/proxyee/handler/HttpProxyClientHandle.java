@@ -5,7 +5,9 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.*;
 import lee.study.proxyee.intercept.HttpProxyIntercept;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class HttpProxyClientHandle extends ChannelInboundHandlerAdapter {
 
     private Channel clientChannel;

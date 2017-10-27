@@ -6,7 +6,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpServerCodec;
 import lee.study.proxyee.handler.HttpProxyServerHandle;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class TestClose {
     public static void main(String[] args) {
         EventLoopGroup bossGroup = new NioEventLoopGroup();

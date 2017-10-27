@@ -9,12 +9,19 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.CountDownLatch;
 
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class NativeHttpProxyServer {
 
     public void start(int port) throws IOException {
         ServerSocket serverSocket = new ServerSocket(port);
         for (; ; ) {
-            new SocketHandle(serverSocket.accept()).start();
+            try {
+                new SocketHandle(serverSocket.accept()).start();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
         }
     }
 

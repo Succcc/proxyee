@@ -2,7 +2,9 @@ package lee.study.proxyee.util;
 
 import java.io.IOException;
 import java.io.InputStream;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class LineBuffer {
     private int size;
 

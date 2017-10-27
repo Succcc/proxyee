@@ -1,7 +1,9 @@
 package lee.study.proxyee.util;
 
 import io.netty.handler.codec.http.HttpRequest;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class ProtoUtil {
 
     public static RequestProto getRequestProto(HttpRequest httpRequest){

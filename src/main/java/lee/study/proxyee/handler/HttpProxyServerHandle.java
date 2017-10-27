@@ -11,7 +11,9 @@ import lee.study.proxyee.NettyHttpProxyServer;
 import lee.study.proxyee.crt.CertPool;
 import lee.study.proxyee.intercept.HttpProxyIntercept;
 import lee.study.proxyee.util.ProtoUtil;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
 
     private ChannelFuture cf;

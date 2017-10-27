@@ -4,7 +4,9 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.handler.codec.http.HttpClientCodec;
 import lee.study.proxyee.NettyHttpProxyServer;
-
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class HttpProxyInitializer extends ChannelInitializer{
 
     private Channel clientChannel;

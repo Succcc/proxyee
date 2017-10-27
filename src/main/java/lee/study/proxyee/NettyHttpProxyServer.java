@@ -22,6 +22,9 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.Security;
 
+/**
+ *@author monkeyWie {@see https://github.com/monkeyWie/proxyee}
+ */
 public class NettyHttpProxyServer {
 
     public static HttpResponseStatus SUCCESS;
